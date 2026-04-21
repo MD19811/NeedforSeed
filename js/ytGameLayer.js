@@ -303,7 +303,7 @@ btnFull.addEventListener(LMouseEvent.MOUSE_UP, function(e) {
 			s.point.loop();
 
 			// CHECK VOOR 100 PUNTEN (DOEL)
-			if (s.point.num >= 1000 && !s.goalReached) {
+			if (s.point.num >= 500 && !s.goalReached) {
 				s.goalReached = true;
 				if(s.pauseBtn) s.pauseBtn.pause = true;
 				s.showRandomPhoto();
