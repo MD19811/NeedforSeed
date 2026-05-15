@@ -141,7 +141,7 @@ var ytGameLayer = (function () {
 
 	ytGameLayer.prototype.showRandomPhoto = function () {
 		var s = this;
-		var rand = Math.floor(Math.random() * 160) + 1;
+		var rand = Math.floor(Math.random() * 200) + 1;
 		var fileName = (rand < 10 ? "0" : "") + rand;
 		var url = "https://md19811.github.io/Manillen/randomM/" + fileName + ".jpg";
 
